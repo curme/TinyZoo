@@ -11,7 +11,7 @@ responsible to prepare data batch, build model and control process respectively.
 ## How to run
 Prepare Fonts:  
 Download the [font files](https://www.dropbox.com/s/p3bdia4xe0dok7i/Fonts.zip?dl=0) from dropbox. (~ 233.3M)  
-Extract the font files zip to `PROJECTPATH/Static/Fonts/`.
+Extract the font files zip to `PROJECTPATH/Static/Font/`.
 
 Configure Chars:  
 Configure the characters you want to examine in the configure char map block of `preprocess.py` (~ line_no:50) . 
