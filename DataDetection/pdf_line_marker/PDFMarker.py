@@ -78,7 +78,8 @@ if __name__ == '__main__':
 	file_id = os.listdir(target_root)
 	file_id = [file for file in file_id \
 		if file.split('.')[-1]=='jpg' and len(file.split('.'))==2]
-	file_id = max([int(file.split('.')[0]) for file in file_id]) + 1
+	file_id = [int(file.split('.')[0]) for file in file_id]
+	file_id = 1 if len(file_id) == 0 else max(file_id) + 1
 
 
 	# process pdfs
